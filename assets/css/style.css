@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 *
 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 .container
 {
@@ -30,4 +33,12 @@
   width: 50%;
   height: 100%;
   background: rgba(255,255,255,0.1);
+}
+h1
+{
+  text-transform: uppercase;
+}
+p
+{
+  color: #656565;
 }
